@@ -31,6 +31,7 @@ Global
 html{
   font-size: 62.5%;
   scroll-behavior: smooth;
+  max-width: 100vw;
 }
 
 body{
@@ -374,7 +375,7 @@ Projects
 
 .projects__grid{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
   gap: 10rem 3.5rem;
   margin-top: 8rem;
 }
@@ -464,6 +465,20 @@ Media Queries
     --fs-title: 6rem;
   }
 
+  [data-anime="top"],
+  [data-anime="bottom"],
+  [data-anime="left"],
+  [data-anime="right"]{
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: 0.5s ease-in-out;
+  }
+  
+  [data-anime].animate{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
   .container{
     width: 100vw;
     padding-right: 30px;
@@ -518,10 +533,11 @@ Media Queries
   }
 
   .navbar{
+    width: 100vw;
     display: flex;
-    width: 100%;
     justify-content: center;
     border-radius: 0;
+    left: 0;
     bottom: 0;
     transform: translateY(80%);
   }
