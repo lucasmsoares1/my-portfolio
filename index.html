@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <meta name="viewport" content="width=1,initial-scale=1.0" />
+    <title>Lucas Soares ––– Portfólio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar__items">
+        <li>
+          <a href="#top" class="navbar__item">
+            <ion-icon name="home-outline"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#about" class="navbar__item">
+            <ion-icon name="person-circle-outline"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#skills" class="navbar__item">
+            <ion-icon name="code-slash"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#projects" class="navbar__item">
+            <ion-icon name="laptop-outline"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="header">
+      <div class="container">
+        <div class="header__logo" data-anime="left">luca<span>s</span>soares<span>.</span></div>
+        <div class="header__logo header__logo--responsive" data-anime="left">l<span>s</span><span>.</span></div>
+      </div>
+    </header>
+
+    <section class="home section" id="home">
+      <div class="home__container container">
+        <img data-anime="right" src="./assets/images/placeholder.jpg" 
+        class="home__image" />
+        <img data-anime="right" src="./assets/images/shape-2.svg" class="home__shape"/>
+        <h1 class="home__title" data-anime="left">
+          Eu sou <span class="home__subline">Lucas Soares</span><br />
+          <span class="home__ocupation">Desenvolvedor Front-End</span>
+        </h1>
+        <div class="home__links">
+          <a href="#" class="home__link" target="_blank">
+            Github
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+          <a href="#" class="home__link" target="_blank">
+            LinkedIn
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about__container container">
+        <p class="about__description" data-anime="left">
+          Meu nome é Lucas Soares, sou apaixonado por tecnologia e pela
+          possibilidade de resolver problemas reais por meio dela. Hoje meus
+          estudo são voltados para o front-end, porém, pretendo me aprimorar em
+          outras areas ao longo do tempo.
+          <br>
+          <br>
+          Atualmente estou estudando e
+          desenvolvendo projetos web, de modo a ampliar meus conhecimentos e
+          assim aprimorar ainda mais as habilidades que possuo.
+        </p>
+        <h2 class="section__heading" data-anime="right">
+          Sobre Mim
+          <div class="bar"></div>
+        </h2>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="skills__container container">
+        <h2 class="section__heading" data-anime="left">
+          <div class="bar"></div>
+          Conhecimentos
+        </h2>
+        <div class="skills__grid" data-anime="right">
+            <div class="skills__card">
+              <div class="skill-card__cover">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="skill__image"/>
+              </div>
+            </div>
+            <div class="skills__card">
+              <div class="skill-card__cover">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="skill__image"/>
+              </div>
+            </div>
+            <div class="skills__card">
+              <div class="skill-card__cover">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="skill__image"/>
+              </div>
+            </div>
+            <div class="skills__card">
+              <div class="skill-card__cover">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" class="skill__image"/>
+              </div>
+            </div>
+            <div class="skills__card">
+              <div class="skill-card__cover">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="skill__image"/>
+              </div>
+            </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="projects__container container">
+        <h2 class="section__heading section__heading--center" data-anime="top">
+          <div class="bar"></div>
+          Meus Projetos
+          <div class="bar"></div>
+        </h2>
+        <div class="projects__grid" data-anime="bottom">
+        </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <p>Feito por Lucas Soares</p> 
+        <span>2022</span>
+      </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
