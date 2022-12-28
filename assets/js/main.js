@@ -13,6 +13,8 @@ const typeWriter = (element) => {
 };
 typeWriter(document.querySelector(".home__ocupation"));
 
+
+
 /*====================\
 Reveal Animation
 /====================*/
@@ -36,6 +38,8 @@ window.addEventListener("scroll", animeOnScroll);
 
 // Reveal when load finish
 window.addEventListener("DOMContentLoaded", animeOnScroll);
+
+
 
 /*====================\
 Projects
