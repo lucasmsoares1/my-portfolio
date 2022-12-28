@@ -49,10 +49,7 @@ let projects = [
   {
     id: 0,
     title: "Omnifood",
-    description: `
-        Omnifood é um website que proporciona planos de delivery baseados na dieta dos clientes.<br><br>
-        Esse projeto foi feito com o objetivo de praticar Grid, Flexbox, e a responsividade em CSS3.
-      `,
+    description: `Omnifood é um website que proporciona planos de delivery baseados na dieta dos clientes.`,
     type: "Website",
     demo: "https://omnifoodlms.vercel.app/",
     git: "https://github.com/lucasmsoares1/omnifood",
@@ -62,10 +59,7 @@ let projects = [
   {
     id: 1,
     title: "Camp.in",
-    description: `
-      Tela de login responsiva para um website de camping <br><br>
-      Esse projeto foi feito com o objetivo de praticar CSS e aprimorar meu conhecimento em responsividade.
-    `,
+    description: `Tela de login responsiva para um website de camping.`,
     type: "Website",
     demo: "https://camp-in-loginscreen.vercel.app/",
     git: "https://github.com/lucasmsoares1/camp.in-loginscreen",
@@ -75,10 +69,7 @@ let projects = [
   {
     id: 2,
     title: "Controle Financeiro",
-    description: `
-      Aplicação de controle financeiro feita com Javascript Vanilla, com o objetivo de auxiliar o usuario a controlar gastos <br><br>
-      Esse projeto foi feito com o objetivo de praticar Javascript puro, melhorando meu conhecimento de métodos de array, delegação de eventos e CRUD.
-    `,
+    description: ` Aplicação de controle financeiro feita com Javascript Vanilla, com o objetivo de auxiliar o usuario a controlar gastos.`,
     type: "Webapp",
     demo: "https://expensetrackerlms.vercel.app/",
     git: "https://github.com/lucasmsoares1/expense-tracker",
