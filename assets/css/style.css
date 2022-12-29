@@ -19,7 +19,7 @@ Global
   --font-color: #efeeef;
   --font-gray: #595958;
 
-  --fs-title: 8rem;
+  --fs-title: 6.5rem;
   --fs-subtitle: 4.2rem;
   --fs-paragraph: 1.85rem;
 
@@ -165,7 +165,7 @@ Home
 /====================*/
 .home__container{
   position: relative;
-  padding: 120px 0px;
+  padding: 220px 0px 120px 0px;
 }
 
 .home__title{
@@ -554,9 +554,18 @@ Media Queries
     left: -350px;
   }
 
-
   .home__container{
     text-align: center;
+  }
+
+  .home__image{
+    width: 50%;
+    height: 55%;
+  }
+
+  .home__title{
+    margin-top: 80px;
+    font-size: 7vw;
   }
 
   .navbar__items{
