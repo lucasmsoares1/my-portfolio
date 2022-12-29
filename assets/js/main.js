@@ -54,7 +54,7 @@ let projects = [
     demo: "https://omnifoodlms.vercel.app/",
     git: "https://github.com/lucasmsoares1/omnifood",
     src: "./assets/images/omnifood.png",
-    stacks: ["HTML5", "CSS3", "Vanilla JS"],
+    stacks: ["HTML5", "CSS3", "Javascript Puro"],
   },
   {
     id: 1,
@@ -74,7 +74,7 @@ let projects = [
     demo: "https://expensetrackerlms.vercel.app/",
     git: "https://github.com/lucasmsoares1/expense-tracker",
     src: "./assets/images/expensetracker.png",
-    stacks: ["HTML5", "CSS3", "Javascript"],
+    stacks: ["HTML5", "CSS3", "Javascript Puro"],
   },
 ];
 
@@ -92,10 +92,10 @@ projects.map((project) => {
   </div>
   <div class="project__stacks">${stacks.join('&nbsp; &nbsp; &nbsp;')}</div>
   <div class="home__links">
-    <a href="${demo}" class="home__link" target="_blank">
+    <a href="${git}" class="home__link" target="_blank">
       Repositório
     </a>
-    <a href="${git}" class="home__link" target="_blank">
+    <a href="${demo}" class="home__link" target="_blank">
       Projeto
     </a>
   </div>
