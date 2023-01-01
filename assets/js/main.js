@@ -54,7 +54,7 @@ let projects = [
     demo: "https://omnifoodlms.vercel.app/",
     git: "https://github.com/lucasmsoares1/omnifood",
     src: "./assets/images/omnifood.png",
-    stacks: ["HTML5", "CSS3", "Javascript Puro"],
+    stacks: ["HTML5", "CSS3", "Javascript"],
   },
   {
     id: 1,
@@ -74,7 +74,17 @@ let projects = [
     demo: "https://expensetrackerlms.vercel.app/",
     git: "https://github.com/lucasmsoares1/expense-tracker",
     src: "./assets/images/expensetracker.png",
-    stacks: ["HTML5", "CSS3", "Javascript Puro"],
+    stacks: ["HTML5", "CSS3", "Javascript"],
+  },
+  {
+    id: 3,
+    title: "Formulario de Registro do Discord",
+    description: ` Clone responsivo de formulário de registro do discord com client-side validation.`,
+    type: "Webapp",
+    demo: "https://dcregsterclone.vercel.app/",
+    git: "https://github.com/lucasmsoares1/discord-registration-clone",
+    src: "./assets/images/disclone.png",
+    stacks: ["HTML5", "CSS3", "Javascript"],
   },
 ];
 
